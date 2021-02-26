@@ -3,21 +3,27 @@ from pubnub.enums import PNStatusCategory
 from pubnub.pnconfiguration import PNConfiguration
 from pubnub.pubnub import PubNub
 from pprint import pprint
+#from kafka import KafKaProducer
+import json
+
+#producer = KafkaProducer(bootstrap_servers=["localhost:9092", "localhost:9093"])
+
 
 class MySubscribeCallback(SubscribeCallback):
     def status(self, pubnub, status):
         pass
 
     def presence(self, pubnub, presence):
-        pprint(presence.__dict__)
+        pass
 
     def message(self, pubnub, event):
-        pprint(event.__dict__)
-        print(event)
-        print("{} {} ".format(event.message["bid_price"], event.message["symbol"]))
+        #pprint(event.__dict__)
+        data = event.__dict__
+        msg = data["message"]
+
 
 def my_publish_callback(envelope, status):
-    print(envelope, status)
+    pass#print(envelope, status)
 
 pnconfig = PNConfiguration()
 pnconfig.subscribe_key = "sub-c-4377ab04-f100-11e3-bffd-02ee2ddab7fe" 
