@@ -7,7 +7,7 @@ from kafka import KafkaProducer
 import json
 from kafka.admin import KafkaAdminClient, NewTopic
 
-producer = KafkaProducer(bootstrap_servers=["localhost:9092"])
+producer = KafkaProducer(bootstrap_servers=["pi-node11:9092"])
 
 
 class MySubscribeCallback(SubscribeCallback):
