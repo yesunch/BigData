@@ -3,10 +3,11 @@ from pubnub.enums import PNStatusCategory
 from pubnub.pnconfiguration import PNConfiguration
 from pubnub.pubnub import PubNub
 from pprint import pprint
-#from kafka import KafKaProducer
+from kafka import KafkaProducer
 import json
+from kafka.admin import KafkaAdminClient, NewTopic
 
-#producer = KafkaProducer(bootstrap_servers=["localhost:9092", "localhost:9093"])
+producer = KafkaProducer(bootstrap_servers=["localhost:9092"])
 
 
 class MySubscribeCallback(SubscribeCallback):
@@ -17,13 +18,21 @@ class MySubscribeCallback(SubscribeCallback):
         pass
 
     def message(self, pubnub, event):
-        #pprint(event.__dict__)
         data = event.__dict__
         msg = data["message"]
+        print(data)
+        producer.send("market", json.dumps(data).encode())
 
 
 def my_publish_callback(envelope, status):
     pass#print(envelope, status)
+
+def create_topic(topic_name):
+    admin_client = KafkaAdminClient(bootstrap_servers="localhost:9092", client_id='test')
+    topic_list = []
+    topic_list.append(NewTopic(name="example_topic", num_partitions=1, replication_factor=1))
+    admin_client.create_topics(new_topics=topic_list, validate_only=False)
+
 
 pnconfig = PNConfiguration()
 pnconfig.subscribe_key = "sub-c-4377ab04-f100-11e3-bffd-02ee2ddab7fe" 
