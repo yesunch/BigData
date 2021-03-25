@@ -14,7 +14,9 @@ os.system("kafka-console-consumer.sh --bootstrap-server pi-node11:9092 --topic m
 print("----------------------------------copy the stream data into hdfs-----------------------------")
 os.system("hdfs dfs -rm -r /user/pi/result")
 os.system("hdfs dfs -mkdir /user/pi/result")
-os.system("hdfs dfs -copyFromLocal ~/projet/BigData/batch/data.json /user/pi/result")
+os.system("hdfs dfs -copyFromLocal ~/projet/BigData/batch/data.json /user/pi/result/data.json")
+#print("data in hdfs:")
+#os.system("hdfs dfs -cat /user/pi/result/data.json")
 # clean the output hdfs repository
 print("----------------------------clear the output directory before the MR job----------------------")
 os.system("hdfs dfs -rm -r /user/pi/result_data")

@@ -1,31 +1,183 @@
-{"order_quantity": 310, "timestamp": 1616668375, "bid_price": 188.15608722011086, "symbol": "Apple", "trade_type": "stop"}
-{"order_quantity": 942, "timestamp": 1616668376, "bid_price": 360.15508143334046, "symbol": "Bespin Gas", "trade_type": "market"}
-{"order_quantity": 239, "timestamp": 1616668376, "bid_price": 20.78400035142502, "symbol": "Elerium", "trade_type": "day"}
-{"order_quantity": 873, "timestamp": 1616668376, "bid_price": 210.38229934033075, "symbol": "Apple", "trade_type": "fill or kill"}
-{"order_quantity": 926, "timestamp": 1616668376, "bid_price": 130.98365962729122, "symbol": "Bespin Gas", "trade_type": "market"}
-{"order_quantity": 625, "timestamp": 1616668377, "bid_price": 288.24734908588584, "symbol": "Linen Cloth", "trade_type": "fill or kill"}
-{"order_quantity": 807, "timestamp": 1616668377, "bid_price": 260.7076147919955, "symbol": "Linen Cloth", "trade_type": "fill or kill"}
-{"order_quantity": 72, "timestamp": 1616668377, "bid_price": 208.84259117234893, "symbol": "Apple", "trade_type": "fill or kill"}
-{"order_quantity": 940, "timestamp": 1616668377, "bid_price": 216.83944740810495, "symbol": "Google", "trade_type": "limit"}
-{"order_quantity": 347, "timestamp": 1616668378, "bid_price": 200.49577324632676, "symbol": "Bespin Gas", "trade_type": "limit"}
-{"order_quantity": 493, "timestamp": 1616668378, "bid_price": 233.89357520624162, "symbol": "Bespin Gas", "trade_type": "limit"}
-{"order_quantity": 811, "timestamp": 1616668378, "bid_price": 259.337702514172, "symbol": "Bespin Gas", "trade_type": "day"}
-{"order_quantity": 272, "timestamp": 1616668378, "bid_price": 235.077105227909, "symbol": "Linen Cloth", "trade_type": "fill or kill"}
-{"order_quantity": 736, "timestamp": 1616668379, "bid_price": 294.11393220934394, "symbol": "Bespin Gas", "trade_type": "stop"}
-{"order_quantity": 758, "timestamp": 1616668379, "bid_price": 263.2941872882236, "symbol": "Elerium", "trade_type": "market"}
-{"order_quantity": 326, "timestamp": 1616668379, "bid_price": 291.0196718100508, "symbol": "Bespin Gas", "trade_type": "market"}
-{"order_quantity": 811, "timestamp": 1616668380, "bid_price": 309.81449742825225, "symbol": "Bespin Gas", "trade_type": "stop"}
-{"order_quantity": 501, "timestamp": 1616668380, "bid_price": 243.42205433326725, "symbol": "Bespin Gas", "trade_type": "day"}
-{"order_quantity": 221, "timestamp": 1616668380, "bid_price": 251.53200595420438, "symbol": "Google", "trade_type": "market"}
-{"order_quantity": 573, "timestamp": 1616668380, "bid_price": 411.3246822220471, "symbol": "Google", "trade_type": "market"}
-{"order_quantity": 409, "timestamp": 1616668381, "bid_price": 390.3354962395406, "symbol": "Google", "trade_type": "stop"}
-{"order_quantity": 380, "timestamp": 1616668381, "bid_price": 230.71705942787065, "symbol": "Apple", "trade_type": "day"}
-{"order_quantity": 203, "timestamp": 1616668381, "bid_price": 127.16857744863145, "symbol": "Elerium", "trade_type": "limit"}
-{"order_quantity": 669, "timestamp": 1616668382, "bid_price": 201.59181758477624, "symbol": "Apple", "trade_type": "day"}
-{"order_quantity": 226, "timestamp": 1616668382, "bid_price": 317.01886857936785, "symbol": "Bespin Gas", "trade_type": "day"}
-{"order_quantity": 695, "timestamp": 1616668382, "bid_price": 271.36998452021834, "symbol": "Google", "trade_type": "day"}
-{"order_quantity": 450, "timestamp": 1616668382, "bid_price": 229.9322504062806, "symbol": "Bespin Gas", "trade_type": "limit"}
-{"order_quantity": 645, "timestamp": 1616668383, "bid_price": 177.2463538447544, "symbol": "Apple", "trade_type": "limit"}
-{"order_quantity": 909, "timestamp": 1616668383, "bid_price": 174.68622184486384, "symbol": "Apple", "trade_type": "fill or kill"}
-{"order_quantity": 329, "timestamp": 1616668383, "bid_price": 420.4941498238238, "symbol": "Google", "trade_type": "market"}
-{"order_quantity": 892, "timestamp": 1616668384, "bid_price": 243.3501633071578, "symbol": "Bespin Gas", "trade_type": "limit"}
+{"order_quantity": 282, "trade_type": "fill or kill", "symbol": "Google", "timestamp": 1616700897, "bid_price": 297.3251938536157}
+{"order_quantity": 282, "trade_type": "fill or kill", "symbol": "Google", "timestamp": 1616700897, "bid_price": 297.3251938536157}
+{"order_quantity": 282, "trade_type": "fill or kill", "symbol": "Google", "timestamp": 1616700897, "bid_price": 297.3251938536157}
+{"order_quantity": 359, "trade_type": "market", "symbol": "Elerium", "timestamp": 1616700897, "bid_price": 234.02955465425006}
+{"order_quantity": 359, "trade_type": "market", "symbol": "Elerium", "timestamp": 1616700897, "bid_price": 234.02955465425006}
+{"order_quantity": 359, "trade_type": "market", "symbol": "Elerium", "timestamp": 1616700897, "bid_price": 234.02955465425006}
+{"order_quantity": 220, "trade_type": "fill or kill", "symbol": "Apple", "timestamp": 1616700897, "bid_price": 220.26249295406387}
+{"order_quantity": 220, "trade_type": "fill or kill", "symbol": "Apple", "timestamp": 1616700897, "bid_price": 220.26249295406387}
+{"order_quantity": 220, "trade_type": "fill or kill", "symbol": "Apple", "timestamp": 1616700897, "bid_price": 220.26249295406387}
+{"order_quantity": 582, "trade_type": "market", "symbol": "Google", "timestamp": 1616700898, "bid_price": 343.9044290173347}
+{"order_quantity": 582, "trade_type": "market", "symbol": "Google", "timestamp": 1616700898, "bid_price": 343.9044290173347}
+{"order_quantity": 582, "trade_type": "market", "symbol": "Google", "timestamp": 1616700898, "bid_price": 343.9044290173347}
+{"order_quantity": 890, "trade_type": "fill or kill", "symbol": "Bespin Gas", "timestamp": 1616700898, "bid_price": 179.2694541697248}
+{"order_quantity": 890, "trade_type": "fill or kill", "symbol": "Bespin Gas", "timestamp": 1616700898, "bid_price": 179.2694541697248}
+{"order_quantity": 890, "trade_type": "fill or kill", "symbol": "Bespin Gas", "timestamp": 1616700898, "bid_price": 179.2694541697248}
+{"order_quantity": 804, "trade_type": "day", "symbol": "Google", "timestamp": 1616700898, "bid_price": 383.1459729219848}
+{"order_quantity": 804, "trade_type": "day", "symbol": "Google", "timestamp": 1616700898, "bid_price": 383.1459729219848}
+{"order_quantity": 804, "trade_type": "day", "symbol": "Google", "timestamp": 1616700898, "bid_price": 383.1459729219848}
+{"order_quantity": 325, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700898, "bid_price": 212.9156082375251}
+{"order_quantity": 325, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700898, "bid_price": 212.9156082375251}
+{"order_quantity": 325, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700898, "bid_price": 212.9156082375251}
+{"order_quantity": 574, "trade_type": "stop", "symbol": "Google", "timestamp": 1616700899, "bid_price": 429.57422029111785}
+{"order_quantity": 574, "trade_type": "stop", "symbol": "Google", "timestamp": 1616700899, "bid_price": 429.57422029111785}
+{"order_quantity": 574, "trade_type": "stop", "symbol": "Google", "timestamp": 1616700899, "bid_price": 429.57422029111785}
+{"order_quantity": 981, "trade_type": "stop", "symbol": "Linen Cloth", "timestamp": 1616700899, "bid_price": 284.126185426211}
+{"order_quantity": 981, "trade_type": "stop", "symbol": "Linen Cloth", "timestamp": 1616700899, "bid_price": 284.126185426211}
+{"order_quantity": 981, "trade_type": "stop", "symbol": "Linen Cloth", "timestamp": 1616700899, "bid_price": 284.126185426211}
+{"order_quantity": 610, "trade_type": "stop", "symbol": "Elerium", "timestamp": 1616700899, "bid_price": 108.21012677002744}
+{"order_quantity": 610, "trade_type": "stop", "symbol": "Elerium", "timestamp": 1616700899, "bid_price": 108.21012677002744}
+{"order_quantity": 610, "trade_type": "stop", "symbol": "Elerium", "timestamp": 1616700899, "bid_price": 108.21012677002744}
+{"order_quantity": 976, "trade_type": "limit", "symbol": "Elerium", "timestamp": 1616700899, "bid_price": 93.7119431764807}
+{"order_quantity": 976, "trade_type": "limit", "symbol": "Elerium", "timestamp": 1616700899, "bid_price": 93.7119431764807}
+{"order_quantity": 976, "trade_type": "limit", "symbol": "Elerium", "timestamp": 1616700899, "bid_price": 93.7119431764807}
+{"order_quantity": 645, "trade_type": "day", "symbol": "Elerium", "timestamp": 1616700900, "bid_price": 122.56112223463433}
+{"order_quantity": 645, "trade_type": "day", "symbol": "Elerium", "timestamp": 1616700900, "bid_price": 122.56112223463433}
+{"order_quantity": 645, "trade_type": "day", "symbol": "Elerium", "timestamp": 1616700900, "bid_price": 122.56112223463433}
+{"order_quantity": 820, "trade_type": "market", "symbol": "Linen Cloth", "timestamp": 1616700900, "bid_price": 288.09698476723804}
+{"order_quantity": 820, "trade_type": "market", "symbol": "Linen Cloth", "timestamp": 1616700900, "bid_price": 288.09698476723804}
+{"order_quantity": 820, "trade_type": "market", "symbol": "Linen Cloth", "timestamp": 1616700900, "bid_price": 288.09698476723804}
+{"order_quantity": 903, "trade_type": "day", "symbol": "Linen Cloth", "timestamp": 1616700900, "bid_price": 226.9314668578352}
+{"order_quantity": 903, "trade_type": "day", "symbol": "Linen Cloth", "timestamp": 1616700900, "bid_price": 226.9314668578352}
+{"order_quantity": 903, "trade_type": "day", "symbol": "Linen Cloth", "timestamp": 1616700900, "bid_price": 226.9314668578352}
+{"order_quantity": 200, "trade_type": "limit", "symbol": "Google", "timestamp": 1616700901, "bid_price": 419.3471057185951}
+{"order_quantity": 200, "trade_type": "limit", "symbol": "Google", "timestamp": 1616700901, "bid_price": 419.3471057185951}
+{"order_quantity": 200, "trade_type": "limit", "symbol": "Google", "timestamp": 1616700901, "bid_price": 419.3471057185951}
+{"order_quantity": 574, "trade_type": "limit", "symbol": "Elerium", "timestamp": 1616700901, "bid_price": 94.98471103409354}
+{"order_quantity": 574, "trade_type": "limit", "symbol": "Elerium", "timestamp": 1616700901, "bid_price": 94.98471103409354}
+{"order_quantity": 574, "trade_type": "limit", "symbol": "Elerium", "timestamp": 1616700901, "bid_price": 94.98471103409354}
+{"order_quantity": 758, "trade_type": "stop", "symbol": "Google", "timestamp": 1616700901, "bid_price": 241.86318662545182}
+{"order_quantity": 758, "trade_type": "stop", "symbol": "Google", "timestamp": 1616700901, "bid_price": 241.86318662545182}
+{"order_quantity": 758, "trade_type": "stop", "symbol": "Google", "timestamp": 1616700901, "bid_price": 241.86318662545182}
+{"order_quantity": 918, "trade_type": "stop", "symbol": "Google", "timestamp": 1616700901, "bid_price": 329.99305300611195}
+{"order_quantity": 918, "trade_type": "stop", "symbol": "Google", "timestamp": 1616700901, "bid_price": 329.99305300611195}
+{"order_quantity": 918, "trade_type": "stop", "symbol": "Google", "timestamp": 1616700901, "bid_price": 329.99305300611195}
+{"order_quantity": 189, "trade_type": "market", "symbol": "Bespin Gas", "timestamp": 1616700902, "bid_price": 142.51897568395486}
+{"order_quantity": 189, "trade_type": "market", "symbol": "Bespin Gas", "timestamp": 1616700902, "bid_price": 142.51897568395486}
+{"order_quantity": 189, "trade_type": "market", "symbol": "Bespin Gas", "timestamp": 1616700902, "bid_price": 142.51897568395486}
+{"order_quantity": 735, "trade_type": "limit", "symbol": "Bespin Gas", "timestamp": 1616700902, "bid_price": 299.94582728854607}
+{"order_quantity": 735, "trade_type": "limit", "symbol": "Bespin Gas", "timestamp": 1616700902, "bid_price": 299.94582728854607}
+{"order_quantity": 735, "trade_type": "limit", "symbol": "Bespin Gas", "timestamp": 1616700902, "bid_price": 299.94582728854607}
+{"order_quantity": 539, "trade_type": "stop", "symbol": "Bespin Gas", "timestamp": 1616700902, "bid_price": 125.63141078344795}
+{"order_quantity": 539, "trade_type": "stop", "symbol": "Bespin Gas", "timestamp": 1616700902, "bid_price": 125.63141078344795}
+{"order_quantity": 539, "trade_type": "stop", "symbol": "Bespin Gas", "timestamp": 1616700902, "bid_price": 125.63141078344795}
+{"order_quantity": 176, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700903, "bid_price": 166.32920414283734}
+{"order_quantity": 176, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700903, "bid_price": 166.32920414283734}
+{"order_quantity": 176, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700903, "bid_price": 166.32920414283734}
+{"order_quantity": 423, "trade_type": "market", "symbol": "Apple", "timestamp": 1616700903, "bid_price": 196.62019063132016}
+{"order_quantity": 423, "trade_type": "market", "symbol": "Apple", "timestamp": 1616700903, "bid_price": 196.62019063132016}
+{"order_quantity": 423, "trade_type": "market", "symbol": "Apple", "timestamp": 1616700903, "bid_price": 196.62019063132016}
+{"order_quantity": 797, "trade_type": "stop", "symbol": "Google", "timestamp": 1616700903, "bid_price": 271.7140248459626}
+{"order_quantity": 797, "trade_type": "stop", "symbol": "Google", "timestamp": 1616700903, "bid_price": 271.7140248459626}
+{"order_quantity": 797, "trade_type": "stop", "symbol": "Google", "timestamp": 1616700903, "bid_price": 271.7140248459626}
+{"order_quantity": 487, "trade_type": "day", "symbol": "Bespin Gas", "timestamp": 1616700903, "bid_price": 160.80314598736925}
+{"order_quantity": 487, "trade_type": "day", "symbol": "Bespin Gas", "timestamp": 1616700903, "bid_price": 160.80314598736925}
+{"order_quantity": 487, "trade_type": "day", "symbol": "Bespin Gas", "timestamp": 1616700903, "bid_price": 160.80314598736925}
+{"order_quantity": 771, "trade_type": "day", "symbol": "Elerium", "timestamp": 1616700904, "bid_price": 209.60433297282677}
+{"order_quantity": 771, "trade_type": "day", "symbol": "Elerium", "timestamp": 1616700904, "bid_price": 209.60433297282677}
+{"order_quantity": 771, "trade_type": "day", "symbol": "Elerium", "timestamp": 1616700904, "bid_price": 209.60433297282677}
+{"order_quantity": 873, "trade_type": "day", "symbol": "Apple", "timestamp": 1616700904, "bid_price": 177.91640752986788}
+{"order_quantity": 873, "trade_type": "day", "symbol": "Apple", "timestamp": 1616700904, "bid_price": 177.91640752986788}
+{"order_quantity": 873, "trade_type": "day", "symbol": "Apple", "timestamp": 1616700904, "bid_price": 177.91640752986788}
+{"order_quantity": 485, "trade_type": "limit", "symbol": "Linen Cloth", "timestamp": 1616700904, "bid_price": 273.5127701523729}
+{"order_quantity": 485, "trade_type": "limit", "symbol": "Linen Cloth", "timestamp": 1616700904, "bid_price": 273.5127701523729}
+{"order_quantity": 485, "trade_type": "limit", "symbol": "Linen Cloth", "timestamp": 1616700904, "bid_price": 273.5127701523729}
+{"order_quantity": 383, "trade_type": "market", "symbol": "Linen Cloth", "timestamp": 1616700904, "bid_price": 236.88669717128343}
+{"order_quantity": 383, "trade_type": "market", "symbol": "Linen Cloth", "timestamp": 1616700904, "bid_price": 236.88669717128343}
+{"order_quantity": 383, "trade_type": "market", "symbol": "Linen Cloth", "timestamp": 1616700904, "bid_price": 236.88669717128343}
+{"order_quantity": 912, "trade_type": "stop", "symbol": "Elerium", "timestamp": 1616700905, "bid_price": 140.06834758794008}
+{"order_quantity": 912, "trade_type": "stop", "symbol": "Elerium", "timestamp": 1616700905, "bid_price": 140.06834758794008}
+{"order_quantity": 912, "trade_type": "stop", "symbol": "Elerium", "timestamp": 1616700905, "bid_price": 140.06834758794008}
+{"order_quantity": 480, "trade_type": "day", "symbol": "Bespin Gas", "timestamp": 1616700905, "bid_price": 193.48413829316974}
+{"order_quantity": 480, "trade_type": "day", "symbol": "Bespin Gas", "timestamp": 1616700905, "bid_price": 193.48413829316974}
+{"order_quantity": 480, "trade_type": "day", "symbol": "Bespin Gas", "timestamp": 1616700905, "bid_price": 193.48413829316974}
+{"order_quantity": 514, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700905, "bid_price": 210.48064630358436}
+{"order_quantity": 514, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700905, "bid_price": 210.48064630358436}
+{"order_quantity": 514, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700905, "bid_price": 210.48064630358436}
+{"order_quantity": 310, "trade_type": "stop", "symbol": "Apple", "timestamp": 1616700906, "bid_price": 215.05735053913176}
+{"order_quantity": 310, "trade_type": "stop", "symbol": "Apple", "timestamp": 1616700906, "bid_price": 215.05735053913176}
+{"order_quantity": 310, "trade_type": "stop", "symbol": "Apple", "timestamp": 1616700906, "bid_price": 215.05735053913176}
+{"order_quantity": 656, "trade_type": "stop", "symbol": "Linen Cloth", "timestamp": 1616700906, "bid_price": 269.04488609300046}
+{"order_quantity": 656, "trade_type": "stop", "symbol": "Linen Cloth", "timestamp": 1616700906, "bid_price": 269.04488609300046}
+{"order_quantity": 656, "trade_type": "stop", "symbol": "Linen Cloth", "timestamp": 1616700906, "bid_price": 269.04488609300046}
+{"order_quantity": 127, "trade_type": "fill or kill", "symbol": "Google", "timestamp": 1616700906, "bid_price": 320.2602997587852}
+{"order_quantity": 127, "trade_type": "fill or kill", "symbol": "Google", "timestamp": 1616700906, "bid_price": 320.2602997587852}
+{"order_quantity": 127, "trade_type": "fill or kill", "symbol": "Google", "timestamp": 1616700906, "bid_price": 320.2602997587852}
+{"order_quantity": 815, "trade_type": "fill or kill", "symbol": "Bespin Gas", "timestamp": 1616700906, "bid_price": 209.51286598290758}
+{"order_quantity": 815, "trade_type": "fill or kill", "symbol": "Bespin Gas", "timestamp": 1616700906, "bid_price": 209.51286598290758}
+{"order_quantity": 815, "trade_type": "fill or kill", "symbol": "Bespin Gas", "timestamp": 1616700906, "bid_price": 209.51286598290758}
+{"order_quantity": 494, "trade_type": "day", "symbol": "Apple", "timestamp": 1616700907, "bid_price": 197.6415948075842}
+{"order_quantity": 494, "trade_type": "day", "symbol": "Apple", "timestamp": 1616700907, "bid_price": 197.6415948075842}
+{"order_quantity": 494, "trade_type": "day", "symbol": "Apple", "timestamp": 1616700907, "bid_price": 197.6415948075842}
+{"order_quantity": 779, "trade_type": "limit", "symbol": "Elerium", "timestamp": 1616700907, "bid_price": 112.22799176364867}
+{"order_quantity": 779, "trade_type": "limit", "symbol": "Elerium", "timestamp": 1616700907, "bid_price": 112.22799176364867}
+{"order_quantity": 779, "trade_type": "limit", "symbol": "Elerium", "timestamp": 1616700907, "bid_price": 112.22799176364867}
+{"order_quantity": 533, "trade_type": "day", "symbol": "Bespin Gas", "timestamp": 1616700907, "bid_price": 216.34846103151725}
+{"order_quantity": 533, "trade_type": "day", "symbol": "Bespin Gas", "timestamp": 1616700907, "bid_price": 216.34846103151725}
+{"order_quantity": 533, "trade_type": "day", "symbol": "Bespin Gas", "timestamp": 1616700907, "bid_price": 216.34846103151725}
+{"order_quantity": 567, "trade_type": "limit", "symbol": "Elerium", "timestamp": 1616700907, "bid_price": 157.52179456091775}
+{"order_quantity": 567, "trade_type": "limit", "symbol": "Elerium", "timestamp": 1616700907, "bid_price": 157.52179456091775}
+{"order_quantity": 567, "trade_type": "limit", "symbol": "Elerium", "timestamp": 1616700907, "bid_price": 157.52179456091775}
+{"order_quantity": 670, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700908, "bid_price": 183.21923914818538}
+{"order_quantity": 670, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700908, "bid_price": 183.21923914818538}
+{"order_quantity": 670, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700908, "bid_price": 183.21923914818538}
+{"order_quantity": 525, "trade_type": "stop", "symbol": "Google", "timestamp": 1616700908, "bid_price": 310.35867702485893}
+{"order_quantity": 525, "trade_type": "stop", "symbol": "Google", "timestamp": 1616700908, "bid_price": 310.35867702485893}
+{"order_quantity": 525, "trade_type": "stop", "symbol": "Google", "timestamp": 1616700908, "bid_price": 310.35867702485893}
+{"order_quantity": 194, "trade_type": "stop", "symbol": "Elerium", "timestamp": 1616700908, "bid_price": 187.32053819670597}
+{"order_quantity": 194, "trade_type": "stop", "symbol": "Elerium", "timestamp": 1616700908, "bid_price": 187.32053819670597}
+{"order_quantity": 194, "trade_type": "stop", "symbol": "Elerium", "timestamp": 1616700908, "bid_price": 187.32053819670597}
+{"order_quantity": 881, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700909, "bid_price": 195.63814517385555}
+{"order_quantity": 881, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700909, "bid_price": 195.63814517385555}
+{"order_quantity": 881, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700909, "bid_price": 195.63814517385555}
+{"order_quantity": 637, "trade_type": "stop", "symbol": "Linen Cloth", "timestamp": 1616700909, "bid_price": 242.06206310537547}
+{"order_quantity": 637, "trade_type": "stop", "symbol": "Linen Cloth", "timestamp": 1616700909, "bid_price": 242.06206310537547}
+{"order_quantity": 637, "trade_type": "stop", "symbol": "Linen Cloth", "timestamp": 1616700909, "bid_price": 242.06206310537547}
+{"order_quantity": 633, "trade_type": "market", "symbol": "Linen Cloth", "timestamp": 1616700909, "bid_price": 194.68569164547787}
+{"order_quantity": 633, "trade_type": "market", "symbol": "Linen Cloth", "timestamp": 1616700909, "bid_price": 194.68569164547787}
+{"order_quantity": 633, "trade_type": "market", "symbol": "Linen Cloth", "timestamp": 1616700909, "bid_price": 194.68569164547787}
+{"order_quantity": 508, "trade_type": "stop", "symbol": "Elerium", "timestamp": 1616700909, "bid_price": 197.70709990476234}
+{"order_quantity": 508, "trade_type": "stop", "symbol": "Elerium", "timestamp": 1616700909, "bid_price": 197.70709990476234}
+{"order_quantity": 508, "trade_type": "stop", "symbol": "Elerium", "timestamp": 1616700909, "bid_price": 197.70709990476234}
+{"order_quantity": 764, "trade_type": "fill or kill", "symbol": "Elerium", "timestamp": 1616700910, "bid_price": 49.72445836321097}
+{"order_quantity": 764, "trade_type": "fill or kill", "symbol": "Elerium", "timestamp": 1616700910, "bid_price": 49.72445836321097}
+{"order_quantity": 764, "trade_type": "fill or kill", "symbol": "Elerium", "timestamp": 1616700910, "bid_price": 49.72445836321097}
+{"order_quantity": 180, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700910, "bid_price": 207.84701089119665}
+{"order_quantity": 180, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700910, "bid_price": 207.84701089119665}
+{"order_quantity": 180, "trade_type": "limit", "symbol": "Apple", "timestamp": 1616700910, "bid_price": 207.84701089119665}
+{"order_quantity": 194, "trade_type": "fill or kill", "symbol": "Elerium", "timestamp": 1616700910, "bid_price": 109.58078536098411}
+{"order_quantity": 194, "trade_type": "fill or kill", "symbol": "Elerium", "timestamp": 1616700910, "bid_price": 109.58078536098411}
+{"order_quantity": 194, "trade_type": "fill or kill", "symbol": "Elerium", "timestamp": 1616700910, "bid_price": 109.58078536098411}
+{"order_quantity": 234, "trade_type": "day", "symbol": "Linen Cloth", "timestamp": 1616700910, "bid_price": 282.741865987523}
+{"order_quantity": 234, "trade_type": "day", "symbol": "Linen Cloth", "timestamp": 1616700910, "bid_price": 282.741865987523}
+{"order_quantity": 234, "trade_type": "day", "symbol": "Linen Cloth", "timestamp": 1616700910, "bid_price": 282.741865987523}
+{"order_quantity": 539, "trade_type": "fill or kill", "symbol": "Linen Cloth", "timestamp": 1616700911, "bid_price": 304.3846343140836}
+{"order_quantity": 539, "trade_type": "fill or kill", "symbol": "Linen Cloth", "timestamp": 1616700911, "bid_price": 304.3846343140836}
+{"order_quantity": 539, "trade_type": "fill or kill", "symbol": "Linen Cloth", "timestamp": 1616700911, "bid_price": 304.3846343140836}
+{"order_quantity": 322, "trade_type": "fill or kill", "symbol": "Elerium", "timestamp": 1616700911, "bid_price": 102.84192820760731}
+{"order_quantity": 322, "trade_type": "fill or kill", "symbol": "Elerium", "timestamp": 1616700911, "bid_price": 102.84192820760731}
+{"order_quantity": 322, "trade_type": "fill or kill", "symbol": "Elerium", "timestamp": 1616700911, "bid_price": 102.84192820760731}
+{"order_quantity": 76, "trade_type": "market", "symbol": "Bespin Gas", "timestamp": 1616700911, "bid_price": 237.54528967097232}
+{"order_quantity": 76, "trade_type": "market", "symbol": "Bespin Gas", "timestamp": 1616700911, "bid_price": 237.54528967097232}
+{"order_quantity": 76, "trade_type": "market", "symbol": "Bespin Gas", "timestamp": 1616700911, "bid_price": 237.54528967097232}
+{"order_quantity": 577, "trade_type": "market", "symbol": "Google", "timestamp": 1616700912, "bid_price": 413.8247737897333}
+{"order_quantity": 577, "trade_type": "market", "symbol": "Google", "timestamp": 1616700912, "bid_price": 413.8247737897333}
+{"order_quantity": 577, "trade_type": "market", "symbol": "Google", "timestamp": 1616700912, "bid_price": 413.8247737897333}
+{"order_quantity": 286, "trade_type": "limit", "symbol": "Google", "timestamp": 1616700912, "bid_price": 298.66008343799587}
+{"order_quantity": 286, "trade_type": "limit", "symbol": "Google", "timestamp": 1616700912, "bid_price": 298.66008343799587}
+{"order_quantity": 286, "trade_type": "limit", "symbol": "Google", "timestamp": 1616700912, "bid_price": 298.66008343799587}
+{"order_quantity": 647, "trade_type": "stop", "symbol": "Apple", "timestamp": 1616700912, "bid_price": 186.5785306332728}
+{"order_quantity": 647, "trade_type": "stop", "symbol": "Apple", "timestamp": 1616700912, "bid_price": 186.5785306332728}
+{"order_quantity": 647, "trade_type": "stop", "symbol": "Apple", "timestamp": 1616700912, "bid_price": 186.5785306332728}
+{"order_quantity": 215, "trade_type": "market", "symbol": "Elerium", "timestamp": 1616700912, "bid_price": 189.97841202067042}
+{"order_quantity": 215, "trade_type": "market", "symbol": "Elerium", "timestamp": 1616700912, "bid_price": 189.97841202067042}
+{"order_quantity": 215, "trade_type": "market", "symbol": "Elerium", "timestamp": 1616700912, "bid_price": 189.97841202067042}
+{"order_quantity": 248, "trade_type": "stop", "symbol": "Apple", "timestamp": 1616700913, "bid_price": 204.88319538015878}
+{"order_quantity": 248, "trade_type": "stop", "symbol": "Apple", "timestamp": 1616700913, "bid_price": 204.88319538015878}
+{"order_quantity": 248, "trade_type": "stop", "symbol": "Apple", "timestamp": 1616700913, "bid_price": 204.88319538015878}
+{"order_quantity": 50, "trade_type": "market", "symbol": "Elerium", "timestamp": 1616700913, "bid_price": 42.85611213729814}
+{"order_quantity": 50, "trade_type": "market", "symbol": "Elerium", "timestamp": 1616700913, "bid_price": 42.85611213729814}
+{"order_quantity": 50, "trade_type": "market", "symbol": "Elerium", "timestamp": 1616700913, "bid_price": 42.85611213729814}
+{"order_quantity": 452, "trade_type": "market", "symbol": "Bespin Gas", "timestamp": 1616700913, "bid_price": 129.90126243998978}
+{"order_quantity": 452, "trade_type": "market", "symbol": "Bespin Gas", "timestamp": 1616700913, "bid_price": 129.90126243998978}
+{"order_quantity": 452, "trade_type": "market", "symbol": "Bespin Gas", "timestamp": 1616700913, "bid_price": 129.90126243998978}

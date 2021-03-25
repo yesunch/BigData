@@ -8,8 +8,8 @@ for order in sys.stdin:
     order = json.loads(order.strip())
     # split the line into words
     #words = line.split()
-    trade_type = order["message"]["trade_type"]
-    order_quantity = order["message"]["order_quantity"]
+    trade_type = order["trade_type"]
+    order_quantity = order["order_quantity"]
     #print (trade_type)
     # increase counters
     #for word in words:
