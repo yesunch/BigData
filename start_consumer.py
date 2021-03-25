@@ -1,33 +1,41 @@
 from pyspark.sql import *
 from pyspark.sql.types import *
+import kafka
 from kafka import KafkaConsumer
 from pyspark.context import SparkContext
+from pyspark.sql.functions import split, col, from_json, to_json
 
+
+#print("version", kafka.__version__)
 
 spark = SparkSession.builder.appName("Spark Structured Streaming from Kafka").getOrCreate()
+
 sdfMarket = spark.readStream.format("kafka") \
-    .option("kafka.bootstrap.servers", "pi-node11:9092")\
+    .option("kafka.bootstrap.servers", "localhost:9092")\
     .option("subscribe", "market")\
     .option("startingOffsets", "latest")\
     .load()\
-    .selectExpr("CAST(value AS STRING)")
+    .selectExpr("CAST(key AS STRING)", "CAST(value AS STRING)")
 
-sdfMarket.printSchema()
 
 marketSchema = StructType([\
-    StructField("order_quentity", LongType()), StructField("trade_type", StringType()),\
+    StructField("order_quantity", LongType()), StructField("trade_type", StringType()),\
     StructField("symbol", StringType()), StructField("timestamp", TimestampType()),\
     StructField("bid_price", FloatType())])
 
-def parse_data_from_kafka_message(sdf, schema):
-    from pyspark.sql.functions import split
-    assert sdf.isStreaming == True, "DataFrame doesn't receive streaming data"
-    col = split(sdf['message'], ',') #split attributes to nested array in one Column
-    #now expand col to multiple top-level columns 
-    for idx, field in enumerate(schema):
-        sdf = sdf.withColumn(field.name, col.getItem(idx).cast(field.dataType))
-    return sdf.select([field.name for field in schema])
+nestTimestampFormat = "yyyy-MM-dd'T'HH:mm:ss.sss'Z'"
+jsonOptions = { "timestampFormat": nestTimestampFormat }
 
-sdfMarket = parse_data_from_kafka_message(sdfMarket, marketSchema)
+#a = sdfMarket.select( col("key").cast("string"), from_json(col("value").cast("string"), marketSchema, jsonOptions).alias("parsed_value") )
+a = sdfMarket.select(from_json("value", marketSchema).getItem("order_quantity").alias("order_quantity"), \
+                     from_json("value", marketSchema).getItem("trade_type").alias("trade_type"), \
+                     from_json("value", marketSchema).getItem("symbol").alias("symbol"), \
+                     from_json("value", marketSchema).getItem("timestamp").alias("timestamp"), \
+                     from_json("value", marketSchema).getItem("bid_price").alias("bid_price"))
 
-print(sdfMarket)
+# query = a.groupBy("symbol").count()
+a.writeStream \
+.outputMode("append") \
+.format("console") \
+.start() \
+.awaitTermination()

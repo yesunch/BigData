@@ -20,9 +20,10 @@ class MySubscribeCallback(SubscribeCallback):
     def message(self, pubnub, event):
         data = event.__dict__
         msg = data["message"]
-        print(data)
-        producer.send("market", json.dumps(data).encode())
-
+        get_msg = [','.join(map(str,msg.values()))][0].split("\"")[0]
+        print ("------------------------ \n", json.dumps( msg ).encode())
+        #producer.send("market", json.dumps(((str(msg.values())))).encode())
+        producer.send("market", json.dumps( msg ).encode())
 
 def my_publish_callback(envelope, status):
     pass#print(envelope, status)
