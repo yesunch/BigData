@@ -3,10 +3,8 @@ from pyspark.sql.types import *
 import kafka
 from kafka import KafkaConsumer
 from pyspark.context import SparkContext
-from pyspark.sql.functions import split, col, from_json, to_json
+from pyspark.sql.functions import split, col, from_json, to_json, window
 
-
-#print("version", kafka.__version__)
 
 spark = SparkSession.builder.appName("Spark Structured Streaming from Kafka").getOrCreate()
 
@@ -26,15 +24,21 @@ marketSchema = StructType([\
 nestTimestampFormat = "yyyy-MM-dd'T'HH:mm:ss.sss'Z'"
 jsonOptions = { "timestampFormat": nestTimestampFormat }
 
-#a = sdfMarket.select( col("key").cast("string"), from_json(col("value").cast("string"), marketSchema, jsonOptions).alias("parsed_value") )
 a = sdfMarket.select(from_json("value", marketSchema).getItem("order_quantity").alias("order_quantity"), \
                      from_json("value", marketSchema).getItem("trade_type").alias("trade_type"), \
                      from_json("value", marketSchema).getItem("symbol").alias("symbol"), \
                      from_json("value", marketSchema).getItem("timestamp").alias("timestamp"), \
                      from_json("value", marketSchema).getItem("bid_price").alias("bid_price"))
 
-# query = a.groupBy("symbol").count()
-a.writeStream \
+
+################ Traitement des données #############################
+
+
+# Finding the average bid price per symbol using a time window of 10 seconds.
+
+query1 = a.withWatermark("timestamp", "10 seconds").groupBy("symbol", window("timestamp", "10 seconds")).avg("bid_price")
+
+query1.writeStream \
 .outputMode("append") \
 .format("console") \
 .start() \
